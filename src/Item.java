@@ -9,7 +9,7 @@ abstract class Item {
     }
     protected String ID;
     float price;
-    void showinfo(){};
+    public abstract void showinfo();
     public Item(String name, String description, String ID, float price){
         this.name = name;
         this.description = description;
